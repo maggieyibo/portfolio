@@ -1,0 +1,47 @@
+body {
+	margin: 0;
+	background-color: black;
+	color: white;
+	text-align: center;
+	white-space: nowrap;
+	overflow-x: scroll;
+}
+h1 {
+	color: white;
+	text-align: center;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 100%;
+	color: white;
+	font-size: 25px;
+	border: 3px solid white;
+	margin: 0 20px;
+}
+section {
+	height: 100vh;
+	width: 100vw;
+	display: inline-block;
+}
+.landing {
+	background-color: blue;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#about {
+	background-color: red;
+	position: absolute;
+	top: 0;
+	left: 100vw;
+
+}
+#work {
+	background-color: purple;
+	position: absolute;
+	top: 0;
+	left: 200vw;
+
+}
