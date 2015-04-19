@@ -6,6 +6,12 @@ body {
 	white-space: nowrap;
 	overflow-x: scroll;
 }
+.nav {
+	position: fixed;
+	width: 100vw;
+	bottom: 0;
+	left: 0;
+}
 h1 {
 	color: white;
 	text-align: center;
@@ -20,12 +26,16 @@ a {
 	border: 3px solid white;
 	margin: 0 20px;
 }
+a:hover {
+	background-color: white;
+	color: black;
+}
 section {
 	height: 100vh;
 	width: 100vw;
 	display: inline-block;
 }
-.landing {
+#landing {
 	background-color: blue;
 	position: absolute;
 	top: 0;
@@ -43,5 +53,27 @@ section {
 	position: absolute;
 	top: 0;
 	left: 200vw;
+	.showcase {
+		margin-top: 30px;
+	  width: 30vw;
+	  height: 30vh;
+	  display: inline-block;
+	  transition: all .3s;
+	  .minicase {
+	  	width: 70%;
+	  	height: 70%;
+	  	margin: 15%;
+	  	background-color: white;
+	  	z-index: 9;
+			border-radius: 10px;
+	  }
+	}	
+	.showcase:hover {
+		background-color: orange;
+		z-index: 99;
+		.minicase {
+			visibility: hidden;
+		}
+	}
 
 }
