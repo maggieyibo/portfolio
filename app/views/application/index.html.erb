@@ -1,36 +1,61 @@
-<section id='landing'>
-	<h1> Hi! I Am Maggie </h1>
-	<h3> Front-End Web Developer | Photographer | BLAH | BLAH </h3>
-		<a href=""><i class="fa fa-briefcase"></i></a>
-		<a href=""><i class="fa fa-twitter"></i></a>
-		<a href=""><i class="fa fa-twitter"></i></a>
-		<a href=""><i class="fa fa-twitter"></i></a>
-		<a href=""><i class="fa fa-twitter"></i></a>
-		<br>
-		<br>
-		<br>
-	
-</section>
-<section id='about'>
-	<h1> About </h1>
-</section>
-<section id='work'>
-	<h1> Work </h1>
-	<div class='showcase'>
-		<div class='minicase'>
+<div class="main">
+	<section id='landing'>
+		<div id='loading'>
+			<div id="wrapper">
+				<div id="bg"></div>
+				<div id="overlay"></div>
+				<div id="main">
+					<header id="header">
+						<h1>Hello<span style="color: aqua;">!</span> I'm Maggie</h1>
+						<p>Front-End Web Developer &nbsp;&bull;&nbsp; Photographer &nbsp;&bull;&nbsp; Travel Junkie &nbsp;</p>
+					</header>
+
+				</div>
+
+			</div>
 		</div>
-	</div> 
-	<div class='showcase'>
-		<div class='minicase'>
-		</div>
-	</div> 
-	<div class='showcase'>
-		<div class='minicase'>
-		</div>
-	</div> 
-</section>
+
+	</section>
+
+	<section id='about'>
+		<h1> <span style="color: aqua;">?</span> </h1>
+		<span id="summary"><h3>Thank you for stopping by!</h3><br> I am a web developer with a background in Studio Arts. I am passionate <br> about building apps with clear functionality and clean design. I love the process from<br> the conception of an idea to making a product people can use and enjoy. I can't <br> wait to get started on my journey in software development and work with great people! <br>Send me a message and let's get to work!</span>
+
+	</section>
+
+	<section id='work'>
+		<h1> Recent Projects </h1>
+
+		<div class='showcase'>
+			<%= image_tag "forum.jpg" %>
+			<span id="title"><a href="http://for-u-me.herokuapp.com/">FORUM</a></span>
+			<p> <br>D3.js&nbsp;&bull;&nbsp;jQuery&nbsp;&bull;&nbsp;RoR</p>
+
+		</div> 
+		<div class='showcase'>
+			<%= image_tag "nested.jpg" %>
+			<span id="title"><a href="https://well-nested.herokuapp.com/">NESTED</a></span>
+			<p> <br>Bootstrap&nbsp;&bull;&nbsp;GoogleMaps API&nbsp;&bull;&nbsp;RoR</p>
+
+		</div> 
+		<div class='showcase'>
+			<%= image_tag "lgd.jpg" %>
+			<span id="title" style="left: -19.8vw"><a href="https://laguardiadesign.squarespace.com/">LAGUARDIA</a></span>
+			<p> <br>HTML&nbsp;&bull;&nbsp;CSS&nbsp;&bull;&nbsp;JSONT</p>
+
+		</div> 
+	</section>
+</div>
+
 <div class='nav'>
-<a href='#landing'> home </a> 
+<a href='/'> home </a> 
+	<a href='#work'> work </a> 
 	<a href='#about'> about </a> 
-		<a href='#work'> work </a> 
+	<a href='http://www.theusualorder.com/'> &nbsp;blog&nbsp; </a>
+</div>
+
+<div class='links'>
+	<a href="http://www.linkedin.com/in/maggieyibo"><p></p><i class="fa fa-linkedin-square"></i></a>
+	<a href="https://github.com/maggieyibo"><p></p><i class="fa fa-github hrv-grow-rotate"></i></a>
+	<a href="mailto:maggie.yibo@gmail.com"><p></p><i class="fa fa-envelope-o" style="font-size: 28px"></i></a>
 </div>
